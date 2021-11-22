@@ -1,5 +1,11 @@
 ![Ruby](https://github.com/ryanwi/rails7-on-docker/workflows/Ruby/badge.svg)
 
+# Sections:
+
+* `main`: contains all features listed below
+* `feature/base`: contains original code from `https://github.com/ryanwi/rails7-on-docker`
+* `feature/sidekiq`: adds sidekiq to docker with sample sidekiq job
+
 # Rails 7 on Docker demo application
 
 This app demonstrates Rails 7 with PostgreSQL, import maps, turbo, stimulus and hotwire, all running in Docker.
@@ -12,7 +18,7 @@ This app demonstrates Rails 7 with PostgreSQL, import maps, turbo, stimulus and 
 * Dockerfile and Docker Compose configuration
 * PostgreSQL database
 * Redis
-* GitHub Actions for 
+* GitHub Actions for
   * tests
   * Rubocop for linting
   * Security checks with Brakeman and [bundler-audit](https://github.com/rubysec/bundler-audit)
@@ -61,7 +67,7 @@ Build, Ship, and Run Your Applications Everywhere](https://pragprog.com/book/rid
 * [Ruby on Whales:
 Dockerizing Ruby and Rails development](https://evilmartians.com/chronicles/ruby-on-whales-docker-for-ruby-rails-development)
 
-### Rails 7 with importmaps 
+### Rails 7 with importmaps
 
 * [Alpha preview: Modern JavaScript in Rails 7 without Webpack](https://www.youtube.com/watch?v=PtxZvFnL2i0)
 
