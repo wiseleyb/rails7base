@@ -1,0 +1,3 @@
+alias dup='docker-compose up'
+alias dbuild='docker-compose up --build'
+alias dcon='docker-compose exec web rails console'
